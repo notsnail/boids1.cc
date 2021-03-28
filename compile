@@ -1,2 +1,0 @@
-#!/bin/sh
-g++ boids1.cc -o sadf $(pkg-config --cflags --libs raylib) --std=c++17 -O0 -w -framework OpenGL
